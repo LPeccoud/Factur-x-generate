@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CrossIndustryInvoice xmlns="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+  <ExchangedDocumentContext xmlns="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+    <BusinessProcessSpecifiedDocumentContextParameter xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <ID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">M1</ID>
+    </BusinessProcessSpecifiedDocumentContextParameter>
+    <GuidelineSpecifiedDocumentContextParameter xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <ID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">urn:cen.eu:en16931:2017</ID>
+    </GuidelineSpecifiedDocumentContextParameter>
+  </ExchangedDocumentContext>
+  <ExchangedDocument xmlns="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+    <ID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">F20260512_113314_235</ID>
+    <TypeCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">380</TypeCode>
+    <IssueDateTime xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <DateTimeString xmlns="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" format="102">20250630</DateTimeString>
+    </IssueDateTime>
+    <IncludedNote xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <Content xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">L’indemnité forfaitaire légale pour frais de recouvrement est de 40 €.</Content>
+      <SubjectCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">PMT</SubjectCode>
+    </IncludedNote>
+    <IncludedNote xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <Content xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">À défaut de règlement à la date d’échéance, une pénalité de 10 % du net à payer sera applicable immédiatement.</Content>
+      <SubjectCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">PMD</SubjectCode>
+    </IncludedNote>
+    <IncludedNote xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <Content xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">Aucun escompte pour paiement anticipé.</Content>
+      <SubjectCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">AAB</SubjectCode>
+    </IncludedNote>
+  </ExchangedDocument>
+  <SupplyChainTradeTransaction xmlns="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+    <IncludedSupplyChainTradeLineItem xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <AssociatedDocumentLineDocument xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <LineID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">001</LineID>
+      </AssociatedDocumentLineDocument>
+      <SpecifiedTradeProduct xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <Name xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">Poulet aux hormones</Name>
+      </SpecifiedTradeProduct>
+      <SpecifiedLineTradeAgreement xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <NetPriceProductTradePrice xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <ChargeAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">2.12</ChargeAmount>
+        </NetPriceProductTradePrice>
+      </SpecifiedLineTradeAgreement>
+      <SpecifiedLineTradeDelivery xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <BilledQuantity xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" unitCode="KGM">28.520</BilledQuantity>
+      </SpecifiedLineTradeDelivery>
+      <SpecifiedLineTradeSettlement xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <ApplicableTradeTax xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <TypeCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">VAT</TypeCode>
+          <CategoryCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">S</CategoryCode>
+          <RateApplicablePercent xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">5.5</RateApplicablePercent>
+        </ApplicableTradeTax>
+        <SpecifiedTradeSettlementLineMonetarySummation xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <LineTotalAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">60.46</LineTotalAmount>
+        </SpecifiedTradeSettlementLineMonetarySummation>
+      </SpecifiedLineTradeSettlement>
+    </IncludedSupplyChainTradeLineItem>
+    <IncludedSupplyChainTradeLineItem xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <AssociatedDocumentLineDocument xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <LineID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">002</LineID>
+      </AssociatedDocumentLineDocument>
+      <SpecifiedTradeProduct xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <Name xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">Conseil en stratégie</Name>
+        <Description xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">Élaboration d’un plan de communication sur les mérites des aliments ultratransformés.</Description>
+      </SpecifiedTradeProduct>
+      <SpecifiedLineTradeAgreement xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <NetPriceProductTradePrice xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <ChargeAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">1500.0</ChargeAmount>
+        </NetPriceProductTradePrice>
+      </SpecifiedLineTradeAgreement>
+      <SpecifiedLineTradeDelivery xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <BilledQuantity xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" unitCode="C62">1</BilledQuantity>
+      </SpecifiedLineTradeDelivery>
+      <SpecifiedLineTradeSettlement xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <ApplicableTradeTax xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <TypeCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">VAT</TypeCode>
+          <CategoryCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">S</CategoryCode>
+          <RateApplicablePercent xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">20.0</RateApplicablePercent>
+        </ApplicableTradeTax>
+        <SpecifiedTradeSettlementLineMonetarySummation xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <LineTotalAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">1500</LineTotalAmount>
+        </SpecifiedTradeSettlementLineMonetarySummation>
+      </SpecifiedLineTradeSettlement>
+    </IncludedSupplyChainTradeLineItem>
+    <ApplicableHeaderTradeAgreement xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <SellerTradeParty xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <GlobalID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" schemeID="0225">000000002</GlobalID>
+        <Name xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">Burger Queen</Name>
+        <SpecifiedLegalOrganization xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <ID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" schemeID="0002">000000002</ID>
+        </SpecifiedLegalOrganization>
+        <PostalTradeAddress xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <CountryID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">FR</CountryID>
+        </PostalTradeAddress>
+        <URIUniversalCommunication xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <URIID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" schemeID="0225">315143296_6973</URIID>
+        </URIUniversalCommunication>
+        <SpecifiedTaxRegistration xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <ID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" schemeID="VA">FR18000000002</ID>
+        </SpecifiedTaxRegistration>
+      </SellerTradeParty>
+      <BuyerTradeParty xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <GlobalID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" schemeID="0225">000000001</GlobalID>
+        <Name xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">Tricatel</Name>
+        <SpecifiedLegalOrganization xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <ID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" schemeID="0002">000000001</ID>
+        </SpecifiedLegalOrganization>
+        <PostalTradeAddress xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <CountryID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">FR</CountryID>
+        </PostalTradeAddress>
+        <URIUniversalCommunication xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <URIID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" schemeID="0225">315143296_6972</URIID>
+        </URIUniversalCommunication>
+        <SpecifiedTaxRegistration xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <ID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" schemeID="VA">FR15000000001</ID>
+        </SpecifiedTaxRegistration>
+      </BuyerTradeParty>
+    </ApplicableHeaderTradeAgreement>
+    <ApplicableHeaderTradeDelivery xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <ShipToTradeParty xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <PostalTradeAddress xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <CountryID xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">FR</CountryID>
+        </PostalTradeAddress>
+      </ShipToTradeParty>
+      <ActualDeliverySupplyChainEvent xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <OccurrenceDateTime xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <DateTimeString xmlns="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" format="102">20250630</DateTimeString>
+        </OccurrenceDateTime>
+      </ActualDeliverySupplyChainEvent>
+    </ApplicableHeaderTradeDelivery>
+    <ApplicableHeaderTradeSettlement xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+      <InvoiceCurrencyCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">EUR</InvoiceCurrencyCode>
+      <ApplicableTradeTax xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <CalculatedAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">3.33</CalculatedAmount>
+        <TypeCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">VAT</TypeCode>
+        <BasisAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">60.46</BasisAmount>
+        <CategoryCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">S</CategoryCode>
+        <RateApplicablePercent xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">5.5</RateApplicablePercent>
+      </ApplicableTradeTax>
+      <ApplicableTradeTax xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <CalculatedAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">300.00</CalculatedAmount>
+        <TypeCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">VAT</TypeCode>
+        <BasisAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">1500.00</BasisAmount>
+        <CategoryCode xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">S</CategoryCode>
+        <RateApplicablePercent xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">20.0</RateApplicablePercent>
+      </ApplicableTradeTax>
+      <SpecifiedTradePaymentTerms xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <DueDateDateTime xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+          <DateTimeString xmlns="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" format="102">20250730</DateTimeString>
+        </DueDateDateTime>
+      </SpecifiedTradePaymentTerms>
+      <SpecifiedTradeSettlementHeaderMonetarySummation xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">
+        <LineTotalAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">1560.46</LineTotalAmount>
+        <TaxBasisTotalAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">1560.46</TaxBasisTotalAmount>
+        <TaxTotalAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" currencyID="EUR">303.33</TaxTotalAmount>
+        <GrandTotalAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">1863.79</GrandTotalAmount>
+        <DuePayableAmount xmlns="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">1863.79</DuePayableAmount>
+      </SpecifiedTradeSettlementHeaderMonetarySummation>
+    </ApplicableHeaderTradeSettlement>
+  </SupplyChainTradeTransaction>
+</CrossIndustryInvoice>
