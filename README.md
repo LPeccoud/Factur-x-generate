@@ -10,4 +10,4 @@ remplace les valeurs dans une copie du modèle,
 efface les lignes inutiles,
 duplique les blocks si besoin (par exemple les lignes de facture),
 
-puis lance le script 
+puis lance le script Facture-X_Insert.py
