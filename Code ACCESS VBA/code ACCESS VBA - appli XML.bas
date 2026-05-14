@@ -1,7 +1,7 @@
 Option Compare Database
 Option Explicit
 
-Sub ExportFactureXML(Facture)
+Sub ExportFactureXML(PDF_Facture As String, FacRef As Long) 'chemin du PDF de la facture , ID de la facture dans la BD
         Dim Doc As MSXML2.DOMDocument60
         Dim root As IXMLDOMElement, node As IXMLDOMNode, block As IXMLDOMNode, sousBlock As IXMLDOMNode, PostalBock As IXMLDOMNode, newNode As IXMLDOMNode
         Dim lineModel As IXMLDOMNode, lineClone As IXMLDOMNode, agreementNode As IXMLDOMNode
@@ -20,7 +20,6 @@ Sub ExportFactureXML(Facture)
         pathXml = chemin & "Factur-X_Temp.xml" ' fichier XML à insérer dans le PDF
         script = chemin & "FacturX_Insert.py" ' Script Python d'insertion
    
-        FacRef = Forms("Liste des factures")!Factures.Form!RefFac
         '=========================
         ' FACTURE
         '=========================
@@ -197,7 +196,7 @@ Sub ExportFactureXML(Facture)
         Doc.Save pathXml
         
         Set sh = New WshShell
-        cmd = "py -3.12  """ & script & """ """ & pathXml & """ """ & Facture & """"
+        cmd = "py -3.12  """ & script & """ """ & pathXml & """ """ & PDF_Facture & """"
         Set exec = sh.exec(cmd)
         ' attendre la fin
         Do While exec.Status = 0
