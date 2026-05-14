@@ -5,7 +5,7 @@ Sub ExportFactureXML(PDF_Facture As String, FacRef As Long) 'chemin du PDF de la
         Dim Doc As MSXML2.DOMDocument60
         Dim root As IXMLDOMElement, node As IXMLDOMNode, block As IXMLDOMNode, sousBlock As IXMLDOMNode, PostalBock As IXMLDOMNode, newNode As IXMLDOMNode
         Dim lineModel As IXMLDOMNode, lineClone As IXMLDOMNode, agreementNode As IXMLDOMNode
-        Dim FacRef As Long, NumFac As String, Design As String, Descro As String, Total As String, avance As String
+        Dim NumFac As String, Design As String, Descro As String, Total As String, avance As String
         Dim solde As String, DateExe As String, DateFac As String, Echéance As String, Ref As String
         Dim PrixUnitaire As String, Quantité As String, Montant As String
         Dim Client As String, CP As String, Ville As String, Mail As String, SIREN As String, Adresse_1 As String, Adresse_2 As String
