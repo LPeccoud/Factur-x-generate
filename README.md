@@ -4,7 +4,6 @@ Outils de génération de Factur-X pour tableur ou base de donnée
 L'idée est:
 
 (au lieu de reconstituer le XML à partir d'un PDF existant)
-
 Partant d'une base de données (ou un tableur):
 
   générer une facture en PDF,
