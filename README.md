@@ -6,7 +6,7 @@ L'idée est:
 (au lieu de reconstituer le XML à partir d'un PDF existant)
 Partant d'une base de données (ou un tableur):
 
-  générer une facture en PDF,
+	générer une facture en PDF,
   
   générer un XML à partir des données de la base,
   
