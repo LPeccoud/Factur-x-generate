@@ -207,7 +207,7 @@ Sub ExportFactureXML(PDF_Facture As String, FacRef As Long) 'chemin du PDF de la
         erreurs = exec.StdErr.ReadAll
 
         If exec.ExitCode = 0 Then
-                MsgBox "Factur-X réalisée avec succès sur " & Facture, vbInformation
+                MsgBox "Factur-X réalisée avec succès sur " & PDF_Facture, vbInformation
         Else
                 MsgBox _
                         "Erreur Factur-X :" & vbCrLf & vbCrLf & erreurs & vbCrLf & Sortie, vbCritical
@@ -219,7 +219,7 @@ Sub ExportFactureXML(PDF_Facture As String, FacRef As Long) 'chemin du PDF de la
         Close #f
         Debug.Print cmd
         Debug.Print erreurs
-   
+        Application.FollowHyperlink PDF_Facture
         Set rs = Nothing: Set qdf = Nothing
 End Sub
 
