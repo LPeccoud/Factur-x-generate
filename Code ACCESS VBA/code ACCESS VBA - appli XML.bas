@@ -5,7 +5,8 @@ Sub ExportFactureXML(Facture)
         Dim Doc As MSXML2.DOMDocument60
         Dim root As IXMLDOMElement, node As IXMLDOMNode, block As IXMLDOMNode, sousBlock As IXMLDOMNode, PostalBock As IXMLDOMNode, newNode As IXMLDOMNode
         Dim lineModel As IXMLDOMNode, lineClone As IXMLDOMNode, agreementNode As IXMLDOMNode
-        Dim FacRef As Long, NumFac As String, Design As String, Descro As String, Total As String, avance As String, solde As String, DateExe As String, DateFac As String, Echéance As String, Ref As String
+        Dim FacRef As Long, NumFac As String, Design As String, Descro As String, Total As String, avance As String
+        Dim solde As String, DateExe As String, DateFac As String, Echéance As String, Ref As String
         Dim PrixUnitaire As String, Quantité As String, Montant As String
         Dim Client As String, CP As String, Ville As String, Mail As String, SIREN As String, Adresse_1 As String, Adresse_2 As String
         Dim n As Integer, f As Integer
@@ -13,11 +14,11 @@ Sub ExportFactureXML(Facture)
         Dim chemin As String, fichierXml As String, fichierLog As String, script As String, pathXml As String
         Dim sh As WshShell, exec As WshExec, cmd As String, Sortie As String, erreurs As String
     
-        chemin = "C:\Users\Nemo\Documents\Entreprise\BD_Entreprise\Factur-X\"
-        fichierXml = chemin & "Factur-X-en16931_LPe.xml"
-        fichierLog = chemin & "Factur-X_Log.txt"
-        pathXml = chemin & "Factur-X_Temp.xml"
-        script = chemin & "FacturX_Insert.py"
+        chemin = "C:\Users\XXX\Documents\Factur-X\" 'chemin à personnaliser
+        fichierXml = chemin & "factur-X-en16931_MicroEI.xml" ' modèle XML à utiliser
+        fichierLog = chemin & "Factur-X_Log.txt" ' fichier Log de retour
+        pathXml = chemin & "Factur-X_Temp.xml" ' fichier XML à insérer dans le PDF
+        script = chemin & "FacturX_Insert.py" ' Script Python d'insertion
    
         FacRef = Forms("Liste des factures")!Factures.Form!RefFac
         '=========================
